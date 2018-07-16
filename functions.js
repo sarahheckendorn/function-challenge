@@ -11,7 +11,7 @@ console.log(hardWare());
 
 function strings(berry, cake, frosting) {
 	let total = berry + cake + frosting;
-	return "I am making a dessert. It wil cost me: " + "$" + total ;
+	return "I am making a dessert. It will cost me: " + "$" + total ;
 
 };
 
