@@ -6,4 +6,4 @@ function hardWare() {
 
 }
 
-console.log(hardWare())
+console.log(hardWare());
