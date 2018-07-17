@@ -21,4 +21,11 @@ echo strings(17, 29, 10);
 
 //array function in PHP
 
+function triple($number) {
+	return $number *= 3;
+}
+
+$numberArray = array(27, 32, 18, 24);
+$newArray = array_map("triple", $numberArray);
+print_r($newArray);
 ?>
