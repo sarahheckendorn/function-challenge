@@ -17,17 +17,9 @@ function strings(berry, cake, frosting) {
 
 console.log(strings(17, 29, 10));
 
-const dogs = ["labrador", "Poodle", "Hot Dog"];
-const dogsToEat =[];
+const numberArray =[27, 32, 18, 24];
+const newArray = numberArray.map(number => number * 3);
+	console.log(newArray);
 
-function delicious() {
-	for(let i = 0; i < dogs.length; i++) {
-		if(dogs[i] === "Hot Dog") {
-			dogsToEat.push(dogs[i]);
-		}
-	}
-	return dogsToEat;
-};
 
-console.log(delicious());
 
